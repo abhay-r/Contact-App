@@ -1,7 +1,8 @@
-/* Import the Darkly theme  */
-@import url("https://bootswatch.com/5/darkly/bootstrap.min.css");
+/* Import the Lux theme */
+@import url("https://bootswatch.com/5/lux/bootstrap.min.css");
+
 body {
-  background-image: url("https://images.unsplash.com/flagged/photo-1557427161-4701a0fa2f42?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8&w=1000&q=80");
+  background-image: url("https://i.natgeofe.com/n/548467d8-c5f1-4551-9f58-6817a8d2c45e/NationalGeographic_2572187_square.jpg");
   background-size: cover;
   background-position: center;
   background-color: rgba(0, 0, 0, 0.5); /* semi-transparent black overlay */
@@ -13,7 +14,7 @@ body {
   margin: 0 auto;
   padding: 2rem;
   border-radius: 1rem; /* Add rounded corners */
-  background-color: #343a40; /* Change background color to match the theme */
+  background-color: #f8f9fa; /* Change background color to match the theme */
 }
 
 /* Style the input fields */
@@ -29,12 +30,11 @@ input[type='text'] {
   margin-bottom: 1rem;
   border: 2px solid black;
   border-radius: 0.5rem; /* Add rounded corners */
-  background-color: #272b30; /* Change background color to match the theme */
-  color: #fff; /* Change text color to white */
+  background-color: #e9ecef; /* Change background color to match the theme */
 }
 
 button[type='submit'] {
-  background-color: #007bff;
+  background-color: #0d6efd;
   color: #fff;
   padding: 0.5rem 1rem;
   border: none;
@@ -49,7 +49,7 @@ table {
   border-spacing: 0.5rem;
   margin-top: 2rem;
   border: none; /* Remove table border */
-  background-color: #343a40; /* Change background color to match the theme */
+  background-color: #f8f9fa; /* Change background color to match the theme */
   border-radius: 1rem; /* Add rounded corners */
 }
 
@@ -58,8 +58,8 @@ td {
   padding: 0.5rem;
   text-align: left;
   border: none; /* Remove cell borders */
-  background-color: #272b30; /* Change background color to match the theme */
-  color: #fff; /* Change text color to white */
+  background-color: #e9ecef; /* Change background color to match the theme */
+  color: #212529; /* Change text color to black */
   border-radius: 0.5rem; /* Add rounded corners */
 }
 
