@@ -93,7 +93,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>EasyOps</h1>
+      <h1>Contact Details</h1>
       <form onSubmit={handleFormSubmit}>
         <label htmlFor="firstName">First Name</label>
         <input
